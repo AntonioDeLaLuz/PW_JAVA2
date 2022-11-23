@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<!-- Fig. 11.17: FavoriteTwitterSearchs.html -->
+
+<html>
+<head>
+   <title>Twitter Searches</title>
+   <link rel = "stylesheet" type = "text/css" href = "style.css">
+   <script src = "FavoriteTwitterSearches.js"></script>
+</head>
+<body>
+   <h1>Favorite Twitter Searches</h1>
+   <p id = "Bienvenida"></p>
+   <form action = "#">
+      <p><input id = "query" type = "text" 
+         placeholder = "Enter Twitter search query">
+         <a href = "https://dev.twitter.com/docs/using-search">
+            Twitter search operators</a></p>
+      <p><input id = "tag" type = "text" placeholder = "etiqueta del la consulta">
+         <input type = "button" value = "Salvar" 
+            id = "saveButton">
+         <input type = "button" value = "limpiar todo lo salvado"
+            id = "clearButton"></p>
+   </form>
+   <h1>Previously Tagged Searches</h1>
+   <div id = "searches"></div>
+</body>
+</html>
+

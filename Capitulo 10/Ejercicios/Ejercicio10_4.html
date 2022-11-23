@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10.4</title>
+</head>
+<body>
+    <h2>Escribir instruccioes de JavaScript (con respecto al arreglo tabla) para realizar cada una de las siguientes tareas:</h2>
+
+    <ol>
+        <li>
+            a) Declarar u crear un arreglo con tres filas y tres columnas.
+            <u>var tabla = new Array(new Array(3), new Array(3),new Array(3));</u>.
+        </li>
+        <li>
+            b) var totalElementos = tabla.length = tabla[0].length;
+            <u></u>.
+        </li>
+        <li>
+            c) Usar una instrucccion for.... in para inicializar cada elemento del arreglo con la suma de sus indices de fila y de columna. Suponhga que las variables x y y se decaran como variables de control.
+            <u>for ( var x in tabla){
+                for ¿(var y in table[x])
+                {
+                    tabla[x][y]=x+y;
+                }
+            }
+            </u>
+        </li>
+        
+    </ol>
+    
+</body>
+</html>
